@@ -65,3 +65,4 @@ cellranger count --id=run_count_SRR9595741 \
         --sample=SRR9595741 \
         --transcriptome=/mnt/c/Users/CLX-Set/Development/NGS/refdata-gex-mm10-2020-A
 ```
+
