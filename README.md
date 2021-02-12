@@ -66,3 +66,19 @@ cellranger count --id=run_count_SRR9595741 \
         --transcriptome=/mnt/c/Users/CLX-Set/Development/NGS/refdata-gex-mm10-2020-A
 ```
 
+# Monitor resources usage
+
+It took me almost 12 hours to finish the `cellranger count` cmd for *SRR9595741* on my local desktop:
+
+* CPU: AMD Ryzen 7 2700X Eight-Core Processor
+* Memory: 16.0 GB
+* Disk: Samsung SSD 960 EVO 1 TB
+* GPU: Radeon RX 580 Series, 8.0 GB memory
+* Time: 12 hours
+
+We need to estimate the time and money costs by test-run on our local machines.
+
+# Example output
+
+Here is an [example stdout](./example_stdout.txt).
+Here is ![example output summary](./example_web_summary.html)
